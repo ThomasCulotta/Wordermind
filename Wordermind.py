@@ -16,7 +16,6 @@ chancesTaken = 7
 keyWord = random.choice(words)
 resultBoard = []
 
-print(keyWord)
 print("Guess the 5 letter word. 6 guesses.\n")
 for chance in range(maxChances):
     guessWord = input().lower()
